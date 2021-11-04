@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 17px;
 }
 
 a {
@@ -81,7 +82,7 @@ header {
 }
 
 .accedi a:hover {
-  color: #f5893c;
+  color: #255ee9;
 }
 
 /***JUMBO***/
@@ -112,31 +113,16 @@ section.jumbo {
   margin-top: 30px;
 }
 
-.jumbo-content_link .btn {
-  padding: 10px 20px;
-  border-radius: 25px;
-  margin: 0 10px;
-}
-
-.btn-white {
-  background-color: #fff;
-  color: #000;
-}
-
-.btn-black {
-  background-color: #23272a;
-  color: #fff;
-}
-
-.jumbo-content_link .arrow {
-  margin-right: 6px;
-}
-
 /***Section***/
 
-.second-section {
+.second-section,
+.fourth-section {
   background-color: #F6F6F6;
   margin-top: -5px;
+}
+
+.fourth-section {
+  padding-bottom: 60px;
 }
 
 .content-img,
@@ -156,7 +142,60 @@ section.jumbo {
   margin: 25px auto;
 }
 
-.content-text h2 {
+.content-text h2,
+.content-header h2 {
   font-size: 40px;
   margin-bottom: 30px;
+}
+
+.content-header {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.content-fourth_call {
+  position: relative;
+  margin-top: 30px;
+}
+
+.content-fourth_call h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+img.star {
+  position: absolute;
+  top: -40px;
+  left: 310px;
+}
+
+
+/***BUTTONS***/
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 0 10px;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-black {
+  background-color: #23272a;
+  color: #fff;
+}
+
+.btn-purple {
+  background-color: #8EA1E1;
+  color: #fff;
+}
+
+.arrow {
+  margin-right: 6px;
 }
