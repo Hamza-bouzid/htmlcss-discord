@@ -3,3 +3,147 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 25px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/***HEADER***/
+
+header {
+  background-color: #255ee9;
+  padding: 20px 0;
+}
+.logo {
+  width: 100px;
+}
+
+.main-nav {
+  width: calc(100% - 180px);
+  line-height: 30px;
+}
+
+.logo,
+.main-nav {
+  float: left;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.main-nav ul li {
+  display: inline-block;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  margin: 0 15px;
+}
+
+.accedi {
+  float: right;
+  width: 80px;
+  height: 30px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.accedi a {
+  color: black;
+  line-height: 30px;
+}
+
+/***JUMBO***/
+section.jumbo {
+  min-height: 546px;
+  background: url("img/jumbo.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.jumbo-content {
+  color: #fff;
+  max-width: 650px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.jumbo-content h1{
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.jumbo-content_link {
+  margin-top: 30px;
+}
+
+.jumbo-content_link .btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 0 10px;
+}
+
+.jumbo-content_link .btn-white{
+  background-color: #fff;
+  color: #000;
+}
+
+.jumbo-content_link .btn-black{
+  background-color: #23272A;
+  color: #fff;
+}
+
+.jumbo-content_link .arrow {
+  margin-right: 6px;
+}
+
+/***Section***/
+
+.content-img {
+  float: left;
+  width: 50%;
+}
+
+
+
+.content-text {
+  float: right;
+  width: 50%;
+}
+
+.content-text_center {
+  width: 50%;
+  margin: 25px auto;
+}
+
+.content-text h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
