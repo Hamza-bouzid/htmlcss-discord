@@ -61,6 +61,10 @@ header {
   margin: 0 15px;
 }
 
+.main-nav ul li a:hover {
+  text-decoration: underline;
+}
+
 .accedi {
   float: right;
   width: 80px;
@@ -74,6 +78,10 @@ header {
 .accedi a {
   color: black;
   line-height: 30px;
+}
+
+.accedi a:hover {
+  color: #f5893c;
 }
 
 /***JUMBO***/
@@ -95,7 +103,7 @@ section.jumbo {
   transform: translate(-50%, -50%);
 }
 
-.jumbo-content h1{
+.jumbo-content h1 {
   font-size: 45px;
   margin-bottom: 30px;
 }
@@ -110,13 +118,13 @@ section.jumbo {
   margin: 0 10px;
 }
 
-.jumbo-content_link .btn-white{
+.btn-white {
   background-color: #fff;
   color: #000;
 }
 
-.jumbo-content_link .btn-black{
-  background-color: #23272A;
+.btn-black {
+  background-color: #23272a;
   color: #fff;
 }
 
@@ -126,16 +134,21 @@ section.jumbo {
 
 /***Section***/
 
-.content-img {
+.second-section {
+  background-color: #F6F6F6;
+  margin-top: -5px;
+}
+
+.content-img,
+.content-text {
   float: left;
   width: 50%;
 }
 
-
-
-.content-text {
-  float: right;
-  width: 50%;
+.content-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .content-text_center {
