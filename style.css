@@ -260,6 +260,14 @@ footer {
 
 .social-img span {
   font-size: 12px;
+ 
+}
+
+.social-img span::after {
+  content: "\25BC";
+  font-size: 8px;
+  margin-left: 3px;
+  vertical-align: middle;
 }
 
 .social ul li {
@@ -273,6 +281,19 @@ footer {
 
 .product {
  width: 15%;
+}
+
+.twitter:hover {
+  color: #1c9cea;
+}
+.instagram:hover {
+  color: #ca3184;
+}
+.facebook:hover {
+  color: #3d548e;
+}
+.youtube:hover {
+  color: #f70000;
 }
 
 .footer-logo_register {
