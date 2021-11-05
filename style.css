@@ -205,7 +205,7 @@ section.jumbo {
 img.star {
   position: absolute;
   top: -40px;
-  left: 310px;
+  left: 320px;
 }
 
 /***FOOTER***/
@@ -248,10 +248,12 @@ footer {
   margin-bottom: 20px;
 }
 
-.social,
-.product {
+.social{
   float: left;
-  margin: 0 1%;
+}
+
+.product {
+  float: right;
 }
 
 .social-img img {
